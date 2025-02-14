@@ -26,3 +26,6 @@ if st.button("GET RESPONSE"):
     model=genai.GenerativeModel("gemini-1.0-pro-vision-latest")
     response=model.generate_content([prompt,img])
     st.markdown(response.text)
+
+
+    #This is streamlit application
